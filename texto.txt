@@ -1,0 +1,46 @@
+--- DADOS DE REGISTRO DE CLIENTES E SISTEMA ---
+
+Data de cadastro: 15/03/2024 | Último acesso: 2024-10-27
+Data de nascimento: 04/12/1995 (Formato alternativo: 04-12-1995)
+
+Usuário: João_Silva_99 (ID: #USR-8842-X)
+E-mails:
+- Principal: joao.silva@empresa.com.br
+- Secundário: joao_dev+test@gmail.com
+- Inválido (teste): contato@empresa..com ou admin@.com
+
+Telefones:
+- Fixo: (11) 3344-5566
+- Celular: +55 (11) 98765-4321 ou 11987654321
+- Internacional: +1 800 555-0199
+
+Documentos:
+- CPF: 123.456.789-00 ou 12345678900
+- CNPJ: 12.345.678/0001-90
+
+Financeiro:
+- Saldo: R$ 1.500,50 | Desconto: $45.99 | Taxa: 10%
+- Cartão final: 4532 **** **** 4321
+
+Rede e Sistema:
+- Endereço IPv4: 192.168.1.254 ou 10.0.0.1
+- Site: https://www.meudominio.com.br/produtos?id=123&cat=tech#top
+- URL HTTP: http://sub.dominio.org/pagina.html
+- Códigos Hex: #FF5733, #333 e #00FF00
+- UUID: 123e4567-e89b-12d3-a456-426614174000
+
+Código HTML/XML:
+<div class="user-card" id="card_101">
+    <h2 style="color: #FF5733;">Perfil do Usuário</h2>
+    <p>Status: <strong>Ativo</strong></p>
+</div>
+
+Logs de Erro:
+[2024-10-27 14:30:15] [ERROR] [Code 500]: Falha ao conectar ao banco de dados db_prod_01.
+[2024-10-27 14:31:00] [WARN] [Code 404]: Recurso /api/v1/users/999 não encontrado.
+[2024-10-27 14:32:10] [INFO] [Code 200]: Sessão encerrada com sucesso.
+
+\s procura espaço
+\d procura numero
+\D tudo que não é numero
+^ começo 

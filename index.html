@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratório de Regex</title>
+</head>
+<body>
+    <main>
+        <div class="mae">
+            <div class="container">
+                <h1>Laboratório de Regex</h1>
+                <p>Digite nos campos abaixo para testar 5 validações diferentes em tempo real.</p>
+            </div>
+            <div class="formulario">
+                <form action="" onsubmit="return false;">
+
+                    <label for="inputEmail">1. E-mail (Ex: teste@email.com)</label>
+                    <input type="email" id="inputEmail" placeholder="Digite um e-mail...">
+                    <p id="mensagemErroEmail"></p>
+
+                    <label for="inputCEP">2. CEP (Formato: 00000-000)</label>
+                    <input type="text" id="inputCEP" placeholder="00000-000" maxlength="9">
+                    <p id="mensagemErroCEP"></p>
+
+    
+                    <label for="inputCelular">3. Celular (Formato: (00) 00000-0000)</label>
+                    <input type="tel" id="inputCelular" placeholder="(11) 95367-1970" maxlength="15">
+                    <p id="mensagemErroCelular"></p>
+
+                    <label for="inputNumero">4. Apenas Números (Ex: 123456)</label>
+                    <input type="text" id="inputNumero" placeholder="Digite apenas números...">
+                    <p id="mensagemErroNumero"></p>
+
+                    <label for="inputNome">5. Nome (Apenas letras e espaços)</label>
+                    <input type="text" id="inputNome" placeholder="Digite nome completo...">
+                    <p id="mensagemErroNome"></p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
